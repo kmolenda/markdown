@@ -1,0 +1,107 @@
+/* @theme marp-km4 */
+
+@import 'default';
+
+section {
+	/* background: #fc9; */
+	justify-content: flex-start;
+	padding-top: 40px;
+}
+
+section.lead {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+footer {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	height: 10px;
+	bottom: 20px;
+}
+
+h2 {
+	color: #ffff00 !important;
+}
+
+h3 {
+	color: #ffff80 !important;
+}
+
+h4 {
+	color: #ffffcc !important;
+}
+
+strong {
+	color: #ffffcc !important;
+}
+
+a {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+section.invert p, li, ol, ul {
+    font-weight: 400;
+}
+
+section.invert a code {
+    color: #50b3ff;
+}
+
+section.invert code {
+    background-color: #fff0;
+    color:#FDF5E6;
+}
+
+section.invert .hljs-keyword {	
+    color:#87CEFA;
+}
+
+section.invert .hljs-title, .hljs-function {
+    color:white;
+}
+
+section.invert .hljs-params {
+    color: white;
+}
+
+section.invert .hljs-number {
+    color: #BDB76B;
+}
+
+section.invert .hljs-string {
+    color: darkorange;
+}
+
+section.invert .hljs-comment {
+    font-style: italic;
+}
+
+.alert {
+	display: block;
+	position: relative;
+	font-size: 1rem;
+	border-radius: 10px;
+	padding: 0.5rem;
+	background-color: darkgreen;
+	color: #ffff00;
+	margin-top: 1rem;
+	border: 1px solid #FDF5E6;
+	transition: height 0.5s ease-in, opacity 0.5s ease-in;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+.alert.red {
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+}
+
+.alert.green {
+	background-color: darkgreen;
+	color: white;
+}
