@@ -107,6 +107,6 @@ section.invert .hljs-comment {
 }
 
 .alert.gray {
-	background-color: gray;
+	background-color: darkgray;
 	color: white;
 }
